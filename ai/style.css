@@ -91,7 +91,6 @@ svg rect{
   position: absolute;
   top: 50%;
   left: 50%;
-
 }
 ul{
   margin: 0;
@@ -119,7 +118,7 @@ ul.Feature > li:hover {
   background-color: #ff6f00f5;
   color: #FFF;
 }
-li:hover svg path, svg rect  {
+li:hover svg path {
   fill: #0f0e17;
 }
 
@@ -172,18 +171,20 @@ input {
     }
 
 
-      button {
-        background-color: #FF6F00;
-        color: #FFF;
-        border: none;
-        padding: 10px;
-        font-size: 2em;
-        font-weight: bold;
-        cursor: pointer;
-        border-radius: 5px;
-        margin: 10px;
-        width: 100%;
-      }
+    button {
+    background-color: #FF6F00;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90vw;
+    margin: 10px auto;
+
+    
+    }
 
       ul{
         display: flex;
